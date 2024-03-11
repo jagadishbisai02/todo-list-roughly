@@ -1,0 +1,55 @@
+.home-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-home-container {
+  height: 70vh;
+  width: 50%;
+  background-color: #45475a;
+  border-radius: 10px;
+}
+
+.todo-home-container h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Roboto";
+  color: #ffffff;
+}
+
+.todo-list-container {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 18px;
+}
+
+.btn-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 22px;
+}
+
+.btn-input input {
+  padding: 6px 21px;
+  width: 80%;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.btn-input button {
+  border: none;
+  background: #6273a4;
+  padding: 9px 33px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 17px;
+  font-family: "Roboto";
+}

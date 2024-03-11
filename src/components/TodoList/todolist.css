@@ -1,0 +1,29 @@
+.list-items {
+  background: #6273a4;
+  margin: 9px 0px;
+  padding: 0px 9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.list-items p {
+  color: #fff;
+  font-size: 17px;
+  font-family: "Roboto";
+}
+
+.list-items .btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container button {
+  background: none;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+}
